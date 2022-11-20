@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h2><u>Formulario de contacto</u></h2>
+    <form action="http://paxinas.danielcastelao.org/action_page.php" method="GET">
+        <label for="nif">NIF:</label><br>
+        <input type="text" name="nif" value=""><br><br>
+        <label for="name">Nombre:</label><br>
+        <input type="text" name="name" value=""><br><br>
+        <label for="apellido">Apellido:</label><br>
+        <input type="text" name="apellido" value=""><br><br>
+        <label for="nif">Edad:</label><br>
+        <input type="radio" name="edad" value="15-19">
+        <label for="html">15-19</label><br>
+        <input type="radio" name="edad" value="20-29">
+        <label for="css">20-29</label><br>
+        <input type="radio" name="edad" value="30-40">
+        <label for="javascript">30-40</label><br><br>
+        <label for="nif">Estado civil:</label><br>
+        <input list="estado civil" name="list" />
+        <datalist id="estado civil">
+        <option label="Soltero" value="Soltero">
+        <option label="Casado" value="Casado">
+        <option label="Divorciado" value="Divorciado">
+        </datalist><br><br>
+        <label for="nif">Aficiones:</label><br>
+        <input type="checkbox" name="aficion1" value="Cine">
+        <label for="vehicle1">Cine</label><br>
+        <input type="checkbox" name="aficion2" value="Deportes">
+        <label for="vehicle2">Deportes</label><br>
+        <input type="checkbox" name="aficion3" value="Lectura">
+        <label for="vehicle3">Lectura</label><br>
+        <input type="checkbox" name="aficion4" value="Senderismo">
+        <label for="vehicle3">Senderismo</label><br><br>
+        <label for="nif">Comentarios:</label><br>
+        <textarea name="comentarios" rows="10" cols="40">Escribe aquí tus comentarios</textarea><br>
+        <input type="submit" value="Enviar">
+        
+      
+    </form>
+
+   
+
+</body>
+</html>
